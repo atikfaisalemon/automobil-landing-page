@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + React</title>
+    <link rel="stylesheet" href="src/index.css" />
+  </head>
+  <body class="">
+    <!-- navbar -->
+    <nav
+      class="flex flex-col sm:flex-row justify-between w-full container mx-auto z-10 fixed top-0 inset-x-0 text-white py-[50px]"
+    >
+      <a
+        href="#"
+        class="text-center sm:text-start font-brand uppercase text-[45px]"
+      >
+        Logo
+      </a>
+      <div
+        class="flex flex-col items-center sm:flex-row sm:gap-7 justify-center font-book"
+      >
+        <a class="font-book" href="#">Home</a>
+        <a href="#">Our Product</a>
+        <a href="#">Features</a>
+        <a href="#">testimonials</a>
+        <a href="#">FAQS</a>
+      </div>
+      <button
+        class="text-center sm:text-start p-6 w-[135px] h-[54] border-white border-[1px] rounded-lg"
+      >
+        contract us
+      </button>
+    </nav>
+    <!-- herop -->
+    <section class="w-full font-body relative">
+      <img
+        class="object-cover object-center w-full"
+        src="./src/assets/img/Nav-bg-img.png"
+        alt=""
+      />
+
+      <!-- hero text-content -->
+      <div class="absolute top-[236px] sm:w-1/4 ml-[103px] text-white">
+        <div class="space-y-5">
+          <h1 class="text-5xl font-bolded">Save up to 50% on your Fuel Cost</h1>
+          <p class="text-sm font-book">
+            Treat up to 70 litres of fuel with our 7ml bottle. Save up to
+            ₦15,000 for every ₦35,000 spent on fuel.
+          </p>
+          <p class="text-sm font-book">
+            Efficiamax® Ten-35 gives your engine greater fuel efficiency,
+            decreases combustible carbon residue, and drastically cuts down your
+            monthly cost on fuel.
+          </p>
+          <!-- buy now button & link here -->
+          <div class="flex items-center gap-6">
+            <button class="p-3 bg-[#5DB35C] rounded-lg w-[158px]">
+              Buy Now
+            </button>
+            <a class="text-sm font-book" href="#">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

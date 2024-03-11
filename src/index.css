@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "FutuHv";
+    src: url("./assets/Futura Hv BT Heavy.ttf");
+  }
+  @font-face {
+    font-family: "FutuHv2";
+    src: url("./assets/Futura_20Medium_20BT.ttf");
+  }
+  @font-face {
+    font-family: "FutuHv3";
+    src: url("./assets/FutuHv.ttf");
+  }
+
+  @font-face {
+    font-family: "FutuHv4";
+    src: url("./assets/FuturaBookBT.ttf");
+  }
+
+  @font-face {
+    font-family: "FutuHv5";
+    src: url("./assets/Futura\ Bk\ Bold.ttf");
+  }
+}
